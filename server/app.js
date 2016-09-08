@@ -1,0 +1,18 @@
+// initial jokes provided by the client
+jokes = [
+  {
+    whoseJoke: "Huck",
+    jokeQuestion: "What's the difference between roast beef and pea soup?",
+    punchLine: "Anyone can roast beef."
+  },
+  {
+    whoseJoke: "Millie",
+    jokeQuestion: "What do you call a pile of cats?",
+    punchLine: "A mewontain!"
+  },
+  {
+    whoseJoke: "dEv",
+    jokeQuestion: "Why should you not play cards the forest?",
+    punchLine: "Too many Cheetahs"
+  }
+];
