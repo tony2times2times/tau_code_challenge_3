@@ -12,7 +12,7 @@ jokes = [
   },
   {
     whoseJoke: "dEv",
-    jokeQuestion: "Why should you not play cards the forest?",
+    jokeQuestion: "Why should you not play cards in the forest?",
     punchLine: "Too many Cheetahs"
   }
 ];
