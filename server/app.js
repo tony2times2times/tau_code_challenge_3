@@ -8,11 +8,11 @@ jokes = [
   {
     whoseJoke: "Millie",
     jokeQuestion: "What do you call a pile of cats?",
-    punchLine: "A mewontain!"
+    punchLine: "A meowntain!"
   },
   {
     whoseJoke: "dEv",
-    jokeQuestion: "Why should you not play cards the forest?",
+    jokeQuestion: "Why should you not play cards in the forest?",
     punchLine: "Too many Cheetahs"
   }
 ];
