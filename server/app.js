@@ -8,7 +8,7 @@ jokes = [
   {
     whoseJoke: "Millie",
     jokeQuestion: "What do you call a pile of cats?",
-    punchLine: "A mewontain!"
+    punchLine: "A meowntain!"
   },
   {
     whoseJoke: "dEv",
