@@ -1,3 +1,9 @@
+var express = require( 'express' );
+var app = express();
+var path = require( 'path' );
+var bodyParser = require( 'body-parser' );
+var urlEncodedParser = bodyParser.urlencoded( { extended: true } );
+
 // initial jokes provided by the client
 jokes = [
   {
@@ -16,3 +22,16 @@ jokes = [
     punchLine: "Too many Cheetahs"
   }
 ];
+
+// spin up server
+app.listen( 3333, function(){
+  console.log( 'server up on 3333' );
+}); // end spin up server
+
+app.get( '/', function( req, res ){
+  // base url
+  console.log( 'base url hit' );
+  res.sendFile( path.resolve( 'views/index.html' ) );
+});
+
+app.use( express.static( 'public' ) );
