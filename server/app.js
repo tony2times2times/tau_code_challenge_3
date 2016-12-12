@@ -41,4 +41,17 @@ app.get( '/', function( req, res ){
   res.sendFile( path.resolve( 'views/index.html' ) );
 }); // end base url
 
+app.get( '/jokes', function( req, res ){
+  console.log( 'Sending jokes.' );
+  res.send( jokes );
+}); 
+
+app.post( '/newJoke', function( req, res ){
+  console.log( 'Request to add new joke recieved.' );
+  //add joke to joke array
+  jokes.push(req.body);
+  //send joke array to client
+  res.send( jokes );
+});
+
 app.use( express.static( 'public' ) );
