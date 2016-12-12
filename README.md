@@ -25,3 +25,10 @@ jokes = [
 ```
 
 To get started, fork this repo and clone it to your machine.
+
+Overview
+--------
+* all jokes should be displayed on the DOM below the inputs
+* the user should be able to add jokes using the input form
+
+Remember to work in small increments and test often. If you want to take things further, first push the working basic mode to your github and update it after.
